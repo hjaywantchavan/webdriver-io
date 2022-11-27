@@ -1,7 +1,10 @@
 const LoginPage = require('../pageobjects/login.page');
 const SecurePage = require('../pageobjects/secure.page');
 
+//test suite is defined by - describe
 describe('My Login application', () => {
+
+    //testcases inside suite are described by - it
     it('should login with valid credentials', async () => {
         await LoginPage.open();
 
