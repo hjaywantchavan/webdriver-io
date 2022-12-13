@@ -1,3 +1,4 @@
+//const Persons = require('./classes')
 function add(num1, num2){
     return num1+num2
 }
@@ -28,3 +29,7 @@ function checkScope(){
     console.log(stringMessage)
 }
 checkScope()
+
+
+let person = new Persons("John","Doe")
+console.log(person.fullName())
