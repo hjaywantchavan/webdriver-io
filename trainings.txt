@@ -1,3 +1,21 @@
 Trainings - WebDriver IO
 
 Notes:
+Commands:
+Initialize Project: npm init wdio .
+Run command: npx wdio run wdio.conf.js
+
+Selectors:
+https://webdriver.io/docs/selectors/
+
+Assertions:
+https://webdriver.io/docs/api/expect-webdriverio
+
+Waits:
+https://webdriver.io/docs/timeouts
+
+Accessibility Testing:
+https://webdriver.io/docs/accessibility
+
+
+
